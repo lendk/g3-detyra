@@ -162,3 +162,45 @@ table {
     line-height: 20px;
     color: #000000;
 }
+.btn{
+    width: 114px;
+    height: 52px;
+    background: #532C59;
+    border-radius: 15px;
+    border: none;
+    color: white;
+   
+
+}
+section{
+    margin-top: 50px;
+}
+.hero__title{
+    
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 96px;
+    text-align: center;
+    color: #000000;
+    text-shadow: -5px 5px 0px #FFFFFF;
+}
+
+.hero__subtitle{
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #532C59;
+
+}
+.logos{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    width: 100%;
+    gap: 20px;
+
+}
