@@ -338,3 +338,33 @@ section {
     justify-content: center;
     margin-bottom: 40px;
 }
+.collection{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 100%;
+    gap: 32px;
+}
+.collection-logo{
+    width: 376px;
+    height: 300px;
+}
+.collection__title{
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 42px;
+    text-align: center;
+    color: #000000;
+}
+.collection__subtitle{
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #532C59;
+
+}
