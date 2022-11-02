@@ -156,20 +156,20 @@ table {
     font-weight: 500;
     font-size: 16px;
     line-height: 20px;
-    color: #000000;
+    color: #7e7d7f;
 }
 
 .main-nav {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     width: 100%;
-    gap: 300px;
+    gap: 260px;
     font-family: 'Space Grotesk';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 20px;
-    color: #000000;
+    color: #7e7d7f;
     display: flex;
     align-items: center;
 }
