@@ -309,7 +309,7 @@ section {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     width: 100%;
-    gap: 267px;
+    gap: 250px;
     font-family: 'Space Grotesk';
     font-style: normal;
     font-weight: 500;
@@ -337,6 +337,11 @@ section {
     margin-top: 40px;
     justify-content: center;
     margin-bottom: 40px;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
 }
 .collection{
     display: grid;
@@ -367,4 +372,28 @@ section {
     text-align: center;
     color: #532C59;
 
+}
+.arrow{
+    position: relative;
+    left: 300px;
+    top: -60px;
+}
+.collection__main-title{
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    color: #000000;
+}
+.collection__main-subtitle{
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #532C59;
+    margin-bottom: 49px;
 }
