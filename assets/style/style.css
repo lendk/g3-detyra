@@ -181,6 +181,7 @@ table {
     border-radius: 15px;
     border: none;
     color: white;
+    font-family: 'Syne';
 
 
 }
@@ -288,4 +289,52 @@ section {
     font-size: 16px;
     line-height: 24px;
     color: #532C59;
+}
+
+.selling{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    background: #FCFAFF;
+    border: 1px solid #D6BCFA;
+    box-shadow: inset 0px 0px 50px #F8E0FA;
+    border-radius: 60px;
+}
+
+.selling-hero{
+    margin-bottom: 101px;
+      
+}
+.footer-nav {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+    gap: 267px;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    display: flex;
+    margin-bottom: 35px;
+    align-items: center;
+}
+.footer-nav a{
+    text-decoration: none;
+    margin-left: 9px;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #7e7d7f;
+}
+.copyrights{
+    color: #7e7d7f;
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    justify-content: center;
+    margin-bottom: 40px;
 }
