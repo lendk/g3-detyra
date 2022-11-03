@@ -175,14 +175,17 @@ table {
 }
 
 .btn {
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    color: #FFFFFF;
     width: 114px;
     height: 52px;
     background: #532C59;
     border-radius: 15px;
     border: none;
-    color: white;
-    font-family: 'Syne';
-
 
 }
 
