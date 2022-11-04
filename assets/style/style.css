@@ -428,6 +428,58 @@ section {
     color: #532C59;
     margin-bottom: 49px;
 }
+<<<<<<< HEAD
+.cta{
+    margin: auto;
+    background: #FCFAFF;
+    /* Purple/30 */
+    
+    border: 1px solid #D6BCFA;
+    box-shadow: inset 0px 0px 50px #F8E0FA;
+    border-radius: 60px;
+    display: flex;
+    align-items: center;
+}
+.cta__title{
+    
+font-family: 'Syne';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 64px;
+
+
+text-align: center;
+
+
+
+color: #000000
+}
+.cta__subtitle{
+    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    
+    
+    text-align: center;
+    
+    
+    
+    color: #532C59;
+    
+    
+
+    
+    flex: none;
+    order: 0;
+    
+}
+.cta-button{
+    margin-top: 32px;
+}
+=======
 
 /* ## TESTIMONIALS ## */
 body {
@@ -567,3 +619,4 @@ body {
 }
 
 /* ## END TESTIMONIALS ## */
+>>>>>>> dc684081d904ff1f78c54798f638f244f2e1dc6f
