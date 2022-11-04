@@ -193,7 +193,7 @@ body {
     font-size: 17px;
     line-height: 20px;
     color: #FFFFFF;
-    width: 114px;
+  
     height: 52px;
     background: #532C59;
     border-radius: 15px;
@@ -291,6 +291,16 @@ section {
     color: #532C59;
 
 
+}
+.questions__frequently-asked img{
+    position: relative;
+    margin-left:320px;
+}
+.questions__frequently-asked p{
+   margin-top: -30px;
+}
+.questions__subtitle{
+    padding-top: 30px;
 }
 
 .faq__title {
@@ -608,7 +618,7 @@ section {
     padding-top: 20px;
 }
 .cta{
-    margin: auto;
+   
     background: #FCFAFF;
     /* Purple/30 */
     
@@ -617,6 +627,11 @@ section {
     border-radius: 60px;
     display: flex;
     align-items: center;
+    float: left;
+    width: 100%;
+    position: relative;
+    padding-top: 80px;
+    margin-bottom: 80px;
 }
 .cta__title{
     
@@ -657,3 +672,4 @@ color: #000000
 .cta-button{
     margin-top: 32px;
 }
+
