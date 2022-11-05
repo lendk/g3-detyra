@@ -432,8 +432,8 @@ section {
     gap: 20px;
 }
 .collection img{
-    width: 383px;
-    height: 363px;
+    width: 100%;
+    height: auto;
 }
 
 
@@ -766,8 +766,8 @@ section {
         margin: 0 auto;
     }
     .collection-item img{
-        height: 390px;
-        width: 240px;}
+        height: auto;
+        width: 100%;}
      .container{
         max-width: 1124px;
         margin: 0 auto;
