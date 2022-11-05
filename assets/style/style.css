@@ -160,6 +160,32 @@ body {
     padding-top: 20px;
 }
 
+.hamburger {
+    width: 26px;
+    height: 20px;
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    visibility: hidden;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.hamburger-span::after {
+    content: "";
+    width: 22px;
+    height: 3px;
+    background-color: black;
+    border-radius: 10px;
+    float: left;
+}
+
+.hamburger-links {
+    display: flex;
+    align-items: center;
+}
 .main-nav a {
     text-decoration: none;
     margin-left: 9px;
@@ -175,7 +201,7 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     width: 100%;
-    gap: 260px;
+    gap: 238px;
     font-family: 'Space Grotesk';
     font-style: normal;
     font-weight: 500;
@@ -200,7 +226,9 @@ body {
     border: none;
 
 }
-
+.btn-purple{
+    width: 173px;
+}
 section {
     margin-top: 50px;
 }
@@ -234,8 +262,23 @@ section {
     grid-template-columns: repeat(6, 1fr);
     width: 100%;
     gap: 20px;
-    margin-top: -447px;
+    margin-top: -435px;
     padding: 87px;
+
+}
+.logos-first{
+    margin-left: -71px;
+    margin-right: 25px;
+}
+.logos-first, .logos-second{
+    width: 500px;
+    height: 40px;
+}
+.logos-first, .logos-second, .logos{
+    display: flex;
+}
+.logos img{
+    margin-left: 40px;
 
 }
 
@@ -249,7 +292,26 @@ section {
     justify-content: center;
     align-items: center;
 }
-
+.bcg-1{
+    position: relative;
+    bottom: 700px;
+}
+.bcg-2{
+    position: relative;
+    bottom: 700px;
+    left: 800px;
+}
+.bcg-3{
+    position: relative;
+    bottom: 300px;
+    right: 375px;
+}
+.bcg-4{
+    position: relative;
+    bottom: 360px;
+    left: 300px;
+    
+}
 .hero {
     margin-bottom: 101px;
 }
@@ -357,15 +419,13 @@ section {
 .collection {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    width: 100%;
-    gap: 32px;
+    gap: 20px;
+}
+.collection img{
+    width: 383px;
+    height: 363px;
 }
 
-.collection-logo {
-    width: 376px;
-    height: 300px;
-}
 
 .collection__title {
     font-family: 'Syne';
@@ -414,12 +474,6 @@ section {
     color: #532C59;
     margin-bottom: 49px;
 }
-.team {
-    margin-top: 400px;
-    padding: 80px 0;
-}
-
-
 
 .team__content {
     display: flex;
@@ -528,7 +582,6 @@ section {
     float: left;
     width: 100%;
     position: relative;
-    padding-top: 80px;
     margin-bottom: 80px;
 }
 
@@ -607,6 +660,130 @@ section {
     color: #532C59;
     padding-top: 20px;
 }
+@media(max-width:767px) {
+   
+    .testimonials {
+        overflow: hidden;
+    }
+
+    .testimonials__list {
+        gap: 10px;
+        margin-left: -52%;
+        width: 790px;
+    }
+
+    .testimonials__title {
+        font-size: 36px;
+        margin-bottom: 32px;
+    }
+
+    .testimonials__item {
+        padding: 15px;
+    }
+
+    .testimonials__header p {
+        font-size: 14px;
+    }
+
+    .testimonials__header span {
+        font-size: 14px;
+    }
+
+    .testimonials__content p {
+        font-size: 14px;
+        max-height: 100px;
+        overflow: hidden;
+    }
+
+    .testimonials__list:after {
+        width: 121vw;
+        left: 24%;
+    }
+}
+
+
+@media(min-width:768px) and (max-width:1025px) {
+
+    .main-nav__left,
+        .main-nav__right {
+            visibility: hidden;
+        }
+    .hamburger{
+        visibility: visible;
+        margin-left: 40px;
+    }
+    .main-nav__logo{
+        margin-left: -50px;
+    }
+    .hero__title{
+        width: 770px;
+        height: 176px;
+        font-size: 72px;
+        font-weight: 700;
+        line-height: 88px;
+    }
+    .collection__title{
+        width: 240px;
+        height: 32px;
+        line-height: 32px;
+        font-size: 24px;
+        font-weight: 600;
+        height: auto;
+    }
+    .collection__subtitle{
+        width: 240px;
+        height: 60px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .team__group{
+        margin-left: 20px;
+    }
+    br{
+        display: none;
+    }
+    .logos{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .logos-first{
+        margin-left: 5px;
+    }
+     .container{
+        max-width: 1024px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .collection-item img{
+        height: 390px;
+        width: 240px;}
+     .container{
+        max-width: 1124px;
+        margin: 0 auto;
+        width: 100%;
+     }
+    .testimonials__list {
+        gap: 30px;
+    }
+
+    .testimonials__item {
+        padding: 15px;
+    }
+
+    .testimonials__header p {
+        font-size: 14px;
+    }
+
+    .testimonials__header span {
+        font-size: 14px;
+    }
+
+    .testimonials__content p {
+        font-size: 14px;
+    }
+
+}
 .cta{
     margin: auto;
     background: #FCFAFF;
@@ -646,8 +823,6 @@ color: #000000
     
     
     color: #532C59;
-    
-    
 
     
     flex: none;
@@ -656,4 +831,7 @@ color: #000000
 }
 .cta-button{
     margin-top: 32px;
+}
+.container1{
+    margin-bottom: 80px;
 }
